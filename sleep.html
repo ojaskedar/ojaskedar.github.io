@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sleep Bank</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="sleep.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap" rel="stylesheet">
+     <script type="text/javascript" src="debt.js"></script>
+  </head>
+  <body>
+    <div class="container" id="particles-js">
+
+      <div class="heading">
+        <h1>Welcome! I'll calculate your Sleep Debt</h1>
+        <h3>What are the actual hours of sleep you get per day?</h4>
+      </div>
+      <form id="myForm" autocomplete="off" onsubmit="return false">
+          <input id="mon" min="1" max="24" required type="number" placeholder="Monday">
+          <input id="tue" min="1" max="24" required type="number" placeholder="Tuesday">
+          <input id="wed" min="1" max="24" required type="number" placeholder="Wednesday">
+          <input id="thur" min="1" max="24" required type="number" placeholder="Thursday">
+          <input id="fri" min="1" max="24" required type="number" placeholder="Friday">
+          <input id="sat" min="1" max="24" required type="number" placeholder="Saturday">
+          <input id="sun" min="1" max="24" required type="number" placeholder="Sunday">
+          <input id="subbtn" type="submit" onclick="calculator()" value="Submit">
+      </form>
+      </script>
+      <div class="output">
+        <img id="need" src="need.png" width="50px" height="50px">
+        <img id="fill" src="fill.png" width="50px" height="50px">
+        <img id="over" src="over.png" width="50px" height="50px">
+        <img id="perfect" src="perfect.png" width="50px" height="50px">
+        <h3 id="message"></h3>
+      </div>
+      </div>
+
+    <div class="footer">
+      <p>Made with</p><div class="heart">
+
+      </div>
+      <p>By Ojas Kedar</p>
+    </div>
+  </body>
+</html>
