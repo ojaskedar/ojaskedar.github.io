@@ -57,9 +57,7 @@ input:focus{
     width: 280px;
     transition: 0.3s;
   }
-  #message{
-  font-size: 15px;
-  }
+
 }
 #subbtn{
   margin-top: 30px;
@@ -87,7 +85,6 @@ input:focus{
 }
 .output{
   margin-top: 30px;
-  margin-bottom: 20px;
 }
 #over, #need, #fill, #perfect{
   display: none; /*inline-block*/
@@ -97,8 +94,6 @@ input:focus{
   display: none; /*block*/
 }
 .footer{
-  margin-top: 20px;
-  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
