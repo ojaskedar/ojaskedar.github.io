@@ -95,6 +95,8 @@ input:focus{
   display: none; /*block*/
 }
 .footer{
+  margin-top: 20px;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
