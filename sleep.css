@@ -85,6 +85,7 @@ input:focus{
 }
 .output{
   margin-top: 30px;
+  margin-bottom: 20px;
 }
 #over, #need, #fill, #perfect{
   display: none; /*inline-block*/
