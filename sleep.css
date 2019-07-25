@@ -57,7 +57,9 @@ input:focus{
     width: 280px;
     transition: 0.3s;
   }
-
+  #message{
+  font-size: 15px;
+  }
 }
 #subbtn{
   margin-top: 30px;
